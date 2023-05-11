@@ -25,7 +25,7 @@ export default function Home() {
       <form onSubmit={handleEmailSubmit}>
         <input
           type="email"
-          placeholder="Enter your email"
+          placeholder="Enter your email please"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className="px-4 py-2 mt-4 border border-gray-300 rounded"
